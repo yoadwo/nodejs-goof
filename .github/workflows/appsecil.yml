@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  SFU:
+    runs-on: ubuntu-latest
+    name: Secure Software Design - SFU
+    steps:
+      - run: |
+            id
+            uname -a
+            env
+            echo "Hello Secure Software Design - SFU 2023!"
+      - run: echo "Hello AppSecIl 2023!"
