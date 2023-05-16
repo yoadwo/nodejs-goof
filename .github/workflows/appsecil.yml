@@ -3,6 +3,8 @@ on: [push]
 jobs:
   SFU:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     name: Secure Software Design - SFU
     steps:
       - run: |
