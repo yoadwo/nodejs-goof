@@ -19,4 +19,4 @@ jobs:
           # GitHub Token to create issues in the repository
           # token: # optional, default is ${{ github.token }}
           # Target URL
-          target: 'https://www.zaproxy.org'
+          target: 'https://juice-shop.herokuapp.com/'
